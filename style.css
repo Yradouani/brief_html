@@ -30,6 +30,10 @@ header {
     width: 200px;
 }
 
+section {
+    display: flex;
+}
+
 div#sidebar {
     background-color: var(--color1);
     height: 100vh;
@@ -37,7 +41,13 @@ div#sidebar {
     text-align: left;
     position: fixed;
     left: 0;
-    width: 18vw
+    width: 20%
+}
+
+.global_content {
+    width: 80%;
+    position: absolute;
+    right: 0;
 }
 
 div#sidebar a {
