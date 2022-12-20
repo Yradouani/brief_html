@@ -78,3 +78,48 @@ div#sidebar a:hover {
 footer {
     background: var(--color3);
 }
+
+
+/*---------------------------------------*/
+
+p {
+    color : #F3F4EA;
+}
+
+.cv {
+    margin: 1rem;
+    background-color: #5C718E;
+    border-radius: 10px;
+}
+
+#para-title {
+    font-size: 2rem;
+    color: #3E4E5F;
+    padding: 0.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    background-color: #F3F4EA;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#job {
+    display: flex;
+    margin: 0.5rem;
+}
+
+#job-entreprise-date {
+    width: 30%;
+    font-size: 1.2rem;
+}
+
+#job-description {
+    width: 70%;
+    margin-bottom: 2rem;
+}
+
+#job-name {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
