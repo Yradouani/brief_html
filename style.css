@@ -1,0 +1,53 @@
+:root {
+    --color1: #4b4276;
+    --color2: white;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+header {
+    display: flex;
+}
+
+.header_text_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture {
+    width: 200px;
+}
+
+div#sidebar {
+    background-color: var(--color1);
+    height: 100vh;
+    padding: 2em 1em;
+    text-align: left;
+    position: fixed;
+    left: 0;
+    width: 18vw
+}
+
+div#sidebar a {
+    color: var(--color2);
+    transition: all .5s;
+    line-height: 2em;
+}
+
+div#sidebar a:hover {
+    padding-left: 1.2em;
+    color: var(--color1);
+    background-color: var(--color2);
+}
