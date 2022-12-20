@@ -1,6 +1,10 @@
 :root {
     --color1: #4b4276;
     --color2: white;
+    --color3: #5C718E;
+    --color4: #DFDCB9;
+    --color5: #3E4E5F;
+    --color6: #F3F4EA;
 
 }
 
@@ -24,6 +28,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: var(--color3);
 }
 
 .picture {
@@ -48,6 +53,14 @@ div#sidebar {
     width: 80%;
     position: absolute;
     right: 0;
+    height: 100%;
+    background: var(--color5);
+}
+
+.global_content_title {
+    text-align: center;
+    margin: 15px auto;
+    padding: 15px auto;
 }
 
 div#sidebar a {
@@ -60,4 +73,8 @@ div#sidebar a:hover {
     padding-left: 1.2em;
     color: var(--color1);
     background-color: var(--color2);
+}
+
+footer {
+    background: var(--color3);
 }
