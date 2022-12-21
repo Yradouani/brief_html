@@ -40,7 +40,7 @@ section {
 }
 
 div#sidebar {
-    background-color: var(--color1);
+    background-color: var(--color3);
     height: 100vh;
     padding: 2em 1em;
     text-align: left;
@@ -55,12 +55,22 @@ div#sidebar {
     right: 0;
     height: 100%;
     background: var(--color5);
+    color: var(--color2);
+}
+
+.sus_content {
+    background: var(--color3);
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
 }
 
 .global_content_title {
     text-align: center;
-    margin: 15px auto;
+    margin: 0 auto 15px;
     padding: 15px auto;
+    background: var(--color4);
+    color: var(--color3);
 }
 
 div#sidebar a {
